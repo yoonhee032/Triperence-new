@@ -1,0 +1,309 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  max-width: 384px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form-container > div:first-child {
+  text-align: center;
+}
+.radio-control div {
+  border: 1px solid #d8d8d8;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 26%;
+  height: 48px;
+  cursor: pointer;
+  background: none;
+
+  visibility: hidden;
+}
+
+.form-control {
+  width: 98%;
+  height: 48px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+/* .form-control:hover {
+    width: 98%;
+    height: 48px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #77aefc;
+
+    
+  } */
+
+input:focus {
+  outline: 1px solid #77aefc;
+}
+input:checked {
+  outline: 1px solid #77aefc;
+}
+
+.genbtn {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.agebtn {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+  color: #fc8277;
+  width: 100%;
+}
+
+.ps {
+  width: 100%;
+  height: 48px;
+  border: none;
+  background-color: #d1d1d1;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.BtnGen1,
+.BtnGen2,
+.BtnGen3 {
+  border: 1px solid #d8d8d8;
+  display: inline-block;
+  color: gray;
+  border-radius: 30px;
+  width: 27%;
+  line-height: 48px;
+  margin-top: 10px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+}
+.BtnGen1,
+.BtnGen2 {
+  margin-right: 36px;
+}
+.BtnAge1,
+.BtnAge2,
+.BtnAge3,
+.BtnAge4 {
+  border: 1px solid #d8d8d8;
+  display: inline-block;
+  color: gray;
+  border-radius: 30px;
+  width: 20%;
+  line-height: 48px;
+  margin-top: 10px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+}
+.BtnAge1,
+.BtnAge2,
+.BtnAge3 {
+  margin-right: 25px;
+}
+
+.BtnGen1 Input,
+.BtnGen2 Input,
+.BtnGen3 Input,
+.BtnAge1 Input,
+.BtnAge2 Input,
+.BtnAge3 Input,
+.BtnAge4 Input {
+  background: none;
+  visibility: hidden;
+  display: contents;
+}
+
+.BtnGen1 label:not(:first-child) {
+  margin-left: 9%;
+}
+
+/* .radio-group2 label {
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    color: gray;
+    border-radius: 30px;
+    width: 21%;
+    line-height: 48px;
+    cursor: pointer;
+    background: none;
+    text-align: center;
+  }
+   */
+/* .radio-group2 Input {
+    background: none;
+    visibility: hidden;
+    display: contents;
+  } */
+/* .radio-group2 label:not(:first-child) {
+    margin-left: 5%;
+  } */
+
+.select-custom {
+  width: 380px;
+  height: 44px;
+  margin-bottom: 20px;
+  color: gray;
+  border: 1px solid #d8d8d8;
+  /* font-family: 'Pretendard'; */
+  /* font-weight: 200; */
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.radio-label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.llogin {
+  color: #77aefc;
+}
+
+.BtnGen1 Input:checked + div,
+.BtnGen2 Input:checked + div,
+.BtnGen3 Input:checked + div {
+  border: 1px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 101%;
+  cursor: pointer;
+  background: none;
+}
+.BtnGen1 Input:checked + div,
+.BtnGen2 Input:checked + div,
+.BtnGen3 Input:checked + div {
+  border: 1px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 101%;
+  cursor: pointer;
+  background: none;
+}
+
+.BtnAge1 Input:checked + div,
+.BtnAge2 Input:checked + div,
+.BtnAge3 Input:checked + div,
+.BtnAge4 Input:checked + div {
+  border: 1px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 101%;
+  cursor: pointer;
+  background: none;
+}
+
+/* label > input[type='radio']:checked + div {
+    border: 1px solid #77aefc;
+  } */
+
+.alert alert-danger {
+  color: red;
+}
+
+form {
+  max-width: 384px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 48px;
+  border: none;
+  background-color: #d1d1d1;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* //마우스 올렸을 때 */
+.btn btn-primary btn-block button:hover {
+  background-color: #77aefc;
+}
+
+.loginp {
+  display: inline-block;
+  margin: 0 36% 15px 0;
+  font-size: 16px;
+  color: #c1c1c1;
+}
+\place\37060342\home .logina {
+  text-decoration: none;
+  font-size: 16px;
+  color: #77aefc;
+}
+.app form .spanDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.spanDiv span:nth-child(2) {
+  font-size: 16px;
+  color: #c1c1c1;
+  margin: 0 6.25%;
+}
+
+.spanDiv .boderSpan {
+  width: 28.25%;
+  display: inline-block;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.formicons {
+  text-align: center;
+}
+.formicons a:last-child {
+  margin-left: 6.25%;
+}

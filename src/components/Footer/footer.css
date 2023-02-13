@@ -1,0 +1,293 @@
+.af {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 32px;
+    background: #3F4756;
+    float: bottom;
+}
+
+.dlatlf {
+    display: flex!important;
+    flex-basis: auto;
+    text-align: center;
+}
+.g {
+    text-align: center;
+    top: 1vw;
+    left: 18vw;
+    width: 100px;
+}
+.logof {
+    text-align: center;
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    left: 24vw;
+    top: 100px;
+}
+.logotf {
+    text-align: center;
+    position: absolute;
+    width: 116px;
+    height: 38px;
+    top: 98px;
+    Left:8px;
+    font-family: 'Yeongdo-Rg';
+    font-style: normal;
+    font-weight: 400;
+    left: 27vw;
+    line-height: 38px;
+    /* identical to box height */
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+
+.menuf {
+    position: relative;
+    text-decoration: none;
+    width: 4vw;
+    height: 18px;
+    margin-left: 40vw;
+    marginRight: 0.5vw;
+    top: 90px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-size: 15px;
+
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.menuf1 {
+    position: relative;
+    text-decoration: none;
+    width: 4vw;
+    height: 18px;
+
+    marginRight: 4vw;
+    top: 90px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-size: 15px;
+
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.menuf2 {
+    position: relative;
+    text-decoration: none;
+    width: 4vw;
+    height: 18px;
+    marginRight: 4vw;
+
+    top: 90px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-size: 15px;
+
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.menuf3{
+    position: relative;
+    text-decoration: none;
+    width: 4vw;
+    height: 18px;
+    marginRight: 4vw;
+
+    top: 90px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-size: 15px;
+
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Yeongdo-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+.cof {
+    position: relative;
+    width: 330px;
+    height: 20px;
+    margin-left: 66vw;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    top: 70px;
+    /* identical to box height */
+
+    letter-spacing: -0.204545px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+.containerf {
+    display: flex;
+    background: green;
+    flex-direction: column;
+
+
+    /* display: inline-flex; */
+}
+.itemf {
+    background: greenyellow;
+
+}
+.slf {
+    margin: 16px 16px;
+    visibility: visible;
+}
+
+.sukaf {
+    text-decoration-color: red;
+}
+
+@media (max-width: 1200px) {
+    .cof {
+        margin-left: 0;
+        left: calc(50vw - 165px);
+        top: 130px;
+    }
+    .logof {
+        left: calc(50vw - 109px);
+        top: 30px;
+    }
+    .logotf {
+        left: calc(50vw - 63px);
+        top: 30px;
+    }
+    .menuf,.menuf1,.menuf2,.menuf3 {
+        margin-left: 16vw;
+        margin-right: 0;
+    }
+}
+
+
+.wow1f {
+    background-image: url("../../icons/adultcon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    float: right;
+
+}
+.wowf {
+    background-image: url("../../icons/gitignore.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    right: 5px;
+    float: right;
+
+}
+.searchimgf {
+
+
+    height: 48px;
+    max-width: 856px;
+    position: static;
+    margin-left : 691px;
+    margin-right: 300px;
+
+    border: 1px solid #4E7CD7;
+    border-radius: 800px 800px;
+
+
+}
+
+
+
+.searchbuttonf {
+    padding: 0 0;
+    display:inline;
+    position: relative;
+    height: 48px;
+    width: 60px;
+
+    visibility: hidden;
+
+}
+
+
+
+.searchboxf {
+    padding: 0 0;
+
+    flex-grow: 1;
+    display:inline;
+
+    position: relative;
+    float: right;
+    width:calc(100% - 60px);
+    border: none;
+    outline: none;
+    border-radius: 800px 800px;
+    height: 46px;
+
+}
+.searchbox1f {
+    position: relative;
+    width:100px;
+    border-radius: 800px 800px;
+    float: right;
+    height: 46px;
+    right: 5px;
+
+}

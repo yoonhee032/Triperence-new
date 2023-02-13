@@ -1,0 +1,116 @@
+.testList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testList form {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.testList,
+.li-box div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.li-box > div label:not(:first-child) input {
+  display: none;
+  visibility: hidden;
+  align-items: center;
+}
+
+.testList .li-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 80%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.li-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 80%;
+  line-height: 48px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.testList .mc-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 40%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mc-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 40%;
+  line-height: 48px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.testList .mcs-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 27%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mcs-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  display: inline-block;
+  border-radius: 30px;
+  width: 27%;
+  line-height: 48px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+}

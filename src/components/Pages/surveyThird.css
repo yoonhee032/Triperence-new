@@ -1,0 +1,165 @@
+.third-survey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.third-survey form {
+  max-width: 700px;
+  width: 100%;
+}
+.bd {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #3f4756;
+  text-align: center;
+  display: block;
+  font-family: 'Noto Sans';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bd-m {
+  font-weight: 300;
+  font-size: 12px;
+  color: #bdbdbd;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .bd {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------------------- */
+
+.th-gabox div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.th-gabox label:first-child {
+  display: block;
+}
+
+.boderSpan {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #c9c9c9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.th-gabox > div label:not(:first-child) input {
+  display: none;
+}
+
+.third-survey .th-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #c9c9c9;
+  border-radius: 30px;
+  width: 26%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+.th-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 26%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.third-survey .st3 div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #c9c9c9;
+  border-radius: 30px;
+  width: 26%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.st3 input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 26%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.third-survey .tpt-9 div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #c9c9c9;
+  border-radius: 30px;
+  width: 26%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 24px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tpt-9 input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 26%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------- */
+
+.fsbtn button {
+  width: 48%;
+  height: 48px;
+  border: none;
+  background-color: #c9c9c9;
+  color: white;
+  border-radius: 30px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #77aefc;
+}

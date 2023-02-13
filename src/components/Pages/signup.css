@@ -1,0 +1,157 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+    /* background-color: white;y
+    padding: 0px 60px;
+    border-radius: 10px; */
+    max-width: 384px; width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+/* -------------------------------------------- */
+
+.gabox .gabox div
+{
+    margin-bottom: 10px;
+}
+
+.gabox > div .bigL{
+    margin-bottom: 17px;
+    display: inline-block;
+
+}
+
+/*.gabox > div label:not(:first-child) input{*/
+/*    display: none;*/
+/*}*/
+
+
+
+.gabox input{
+    border: 1px solid #d8d8d8;
+    color: #d4d4d4;
+    border-radius: 30px;
+    width: 26%;
+    height: 48px;
+    cursor: pointer;
+    background: none;
+    visibility: hidden;
+    display: none;
+
+
+
+}
+
+.gabox div input:not(:first-of-type) {
+    margin-left: 6.25%;
+
+}
+.gabox div input:not(:last-of-type) {
+    margin-left: 6.25%;
+}
+
+/* ---------------------------------------------------- */
+
+.nationdefault select{
+    margin-bottom: 20px; width: 100%;
+    border-radius: 5px ;
+    height: 48px;
+    color: #000;
+    border: 1px solid #d8d8d8;
+}
+.nationdefault option {
+    color: #999;
+    font-size: 16px;
+}
+
+
+.ps button{
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #d1d1d1 ;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: #77AEFC;
+}
+/* ---------------------------------------------- */
+
+.gen1 div,
+.gen2 div,
+.gen3 div{
+    border: 1px solid #d8d8d8; display: inline-block;
+    color: gray;
+    border-radius: 30px;
+    width: 28%;
+    line-height: 48px;
+    cursor: pointer;
+    text-align: left;
+    background: none;
+    display: inline-block;
+}
+.gen2 div,
+.gen3 div{
+    margin-left: 7.2%;
+}
+.gen1 input:checked + div,
+.gen2 input:checked + div,
+.gen3 input:checked + div{
+    border: 1px solid #77AEFC; color: #77AEFC;
+    display: inline-block;
+    border-radius: 30px;
+    width: 28%;
+    cursor: pointer;
+    background: none;
+
+}
+
+.age1 div,
+.age2 div,
+.age3 div,
+.age4 div{
+    border: 1px solid #d8d8d8; display: inline-block;
+    color: gray;
+    border-radius: 30px;
+    width: 20%;
+    line-height: 48px;
+    cursor: pointer;
+    background: none;
+    text-align: center;
+
+}
+
+.age1 input:checked + div,
+.age2 input:checked + div,
+.age3 input:checked + div,
+.age4 input:checked + div{
+    border: 1px solid #77AEFC; color: #77AEFC;
+    border-radius: 30px;
+    width: 20%;
+    cursor: pointer;
+    background: none;
+}
+
+.age2 div,
+.age3 div,
+.age4 div{
+    margin-left: 5.5%;
+}
+
+
+

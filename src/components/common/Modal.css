@@ -1,0 +1,68 @@
+.gender {
+    margin-bottom: 40px;
+    margin-top: 32px;
+    margin-left: 102px;
+    /*width:588px;*/
+    height: 48px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.gender input:checked + div {
+    width: 112px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #77AEFC;
+    border-radius: 30px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    float: left;
+
+
+    color: #77AEFC;
+
+}
+.gender  div {
+    width: 112px;
+    height: 48px;
+
+    background: #FFFFFF;
+    float: left;
+
+    border-radius: 30px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+
+
+
+    border: 1px solid #999999;
+
+    color: #999999;
+}
+.Mtitle {
+    width: 540px;
+    height: 30px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 45px;
+
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}

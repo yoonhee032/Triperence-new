@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secondheader{
+
+
+    height: 18.23vw;
+    background-image: url("../../icons/second.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 45px;
+}
+.imgtxt1 {
+    position: relative;
+    height: 10vw;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: url("../../icons/imgtxt1.svg");
+
+
+
+}
+.cof {
+    position: relative;
+    width: 330px;
+    height: 20px;
+    marginLeft: '1129px';
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    top: 75px;
+    /* identical to box height */
+
+    letter-spacing: -0.204545px;
+
+
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+@font-face {
+    font-family: 'Yeongdo-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width: 900px) {
+    .imgtxt2 {
+
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .imgtxt1 {
+        background-size: 850px;
+    }
+}
+
+
+
+.imgtxt2 {
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 8vw;
+    bottom: 3vw;
+    background-image: url("../../icons/imgtxt2.svg");
+}
+
+/* calc(700/860*100%); */
+/* .
+width: 100%;
+position: relative;
+align-content: center;
+display : flex;
+justify-content : center;
+align-items : center; */
+

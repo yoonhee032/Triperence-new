@@ -1,0 +1,161 @@
+.second-survey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.na1 {
+  text-align: center;
+}
+.second-survey form {
+  max-width: 1200px;
+  width: 100%;
+}
+.s-label {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: #3f4756;
+  font-family: 'Noto Sans';
+  display: block;
+}
+.s-label label {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  .s-label {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------------------- */
+
+.gabox,
+.gabox div {
+  margin-bottom: 20px;
+}
+.totalgen div {
+  text-align: center;
+}
+.gabox div .bigL {
+  display: block;
+}
+
+/* .gabox div label:not(:first-child){
+  border: 1px solid #d8d8d8; color: #d4d4d4; font-weight: 400;
+
+} */
+
+.boderSpan {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #c9c9c9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gabox > div label:not(:first-child) input {
+  display: none;
+}
+
+.second-survey .na1 div,
+.second-survey .na2 div,
+.second-survey .na3 div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 26%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+}
+.na1 input:checked + div,
+.na2 input:checked + div,
+.na3 input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+
+  width: 26%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+}
+
+.second-survey .se-map div,
+.second-survey .se-map div,
+.second-survey .se-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 49%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.se-map input:checked + div,
+.se-map input:checked + div,
+.se-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 49%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Pretendard-variable';
+  font-weight: 700;
+}
+/* ---------------------------------------------------- */
+
+.nationdefault select {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  height: 48px;
+  color: #000;
+  border: 2px solid #c9c9c9;
+}
+.nationdefault option {
+  color: #c9c9c9;
+  font-size: 16px;
+}
+
+.fsbtn {
+  text-align: center;
+}
+
+/* button {
+  width: 48%;
+  height: 48px;
+  border: none;
+  background-color: #d1d1d1;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+} */
+
+button:hover {
+  background-color: #77aefc;
+}
+.gabox div label input[type='radio']:checked {
+  background-color: #77aefc;
+  border: #77aefc;
+}

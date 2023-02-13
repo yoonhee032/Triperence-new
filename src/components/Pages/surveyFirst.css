@@ -1,0 +1,432 @@
+.first-survey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.first-survey form {
+  max-width: 700px;
+  width: 100%;
+}
+
+.bd {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #3f4756;
+  font-family: 'Noto Sans';
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+}
+
+.bd-s {
+  text-align: center;
+  color: #3f4756;
+  font-family: 'Noto Sans';
+  font-size: 24px;
+  font-weight: 700;
+}
+.bd-m {
+  display: block;
+  margin-bottom: 24px;
+  color: #c9c9c9;
+  margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .bd {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------------------- */
+
+.fi-gabox,
+.fi-gabox div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fi-gabox div label:first-child {
+  display: block;
+}
+
+.boderSpan {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #c1c1c1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fi-gabox > div label:not(:first-child) input,
+.new-gabox > div label:not(:first-child) input,
+.new-map > div label:not(:first-child) input {
+  display: none;
+  visibility: hidden;
+}
+
+.first-survey .fi-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #c9c9c9;
+  border-radius: 30px;
+  width: 26%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fi-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 26%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.first-survey .fi-s div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #c9c9c9;
+  border-radius: 30px;
+  width: 18%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fi-s input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 18%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.first-survey .des1 div,
+.first-survey .des2 div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 40%;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  margin-left: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.des1 input:checked + div,
+.des2 input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 40%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------- */
+
+.nationdefault select {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  height: 48px;
+  color: #000;
+  border: 2px solid #c9c9c9;
+}
+
+.nationdefault option {
+  color: #c9c9c9;
+  font-size: 16px;
+}
+
+.fsbtn {
+  text-align: center;
+}
+
+.fsbtn button {
+  width: 48%;
+  height: 48px;
+  border: none;
+  background-color: #c9c9c9;
+  color: white;
+  border-radius: 30px;
+  line-height: 1px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #77aefc;
+}
+
+/* ----------------------------------------------- */
+
+.testChoa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testChoa form {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.testChoa,
+.new-gabox div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.new-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 25%;
+  padding-top: 20px;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-family: 'Pretendard-variable';
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 16px;
+  max-width: 180px;
+}
+
+.new-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 25%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 16px;
+  max-width: 180px;
+  outline: none;
+  text-shadow: 0 0 0 black;
+}
+.new-map:not(:first-child),
+.new-map:not(:nth-child(4)),
+.new-map:not(:nth-child(7)) {
+  margin-left: 2.4%;
+}
+
+.new-map:not(:nth-child(7)),
+.new-map:not(:nth-child(8)),
+.new-map:not(:nth-child(9)) {
+  margin-bottom: 20px;
+}
+
+/* .new-map + div {
+    border: 2px solid #c9c9c9;
+    display: inline-block;
+    color: #d4d4d4;
+    border-radius: 30px;
+    width: 25%;
+    height: 216px;
+    padding-top: 20px;
+    line-height: 48px;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.new-map input:checked + div {
+    border: 1px solid #77AEFC;
+    color: #77AEFC;
+    border-radius: 30px;
+    width: 25%;
+    height: 216px;
+    cursor: pointer;
+    background: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+} */
+
+.n-map + div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 270px;
+  height: 217px;
+  padding-top: 20px;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+}
+
+.n-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 270px;
+  height: 217px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+}
+
+.n-map img {
+  width: 234px;
+  height: 156px;
+  border-radius: 20px;
+}
+
+.new-map img {
+  width: 156px;
+  height: 156px;
+  border-radius: 20px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.nori-map img {
+  width: 234px;
+  height: 156px;
+  border-radius: 20px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.testSodam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testSodam form {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.testSodam,
+.new-gabox div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.so-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 25%;
+  padding-top: 20px;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 16px;
+  max-width: 180px;
+}
+
+.new-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 25%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.nori-map div {
+  border: 2px solid #c9c9c9;
+  display: inline-block;
+  color: #d4d4d4;
+  border-radius: 30px;
+  width: 32%;
+  padding-top: 20px;
+  line-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 48px;
+  max-width: 100%;
+}
+
+.nori-map input:checked + div {
+  border: 2px solid #77aefc;
+  color: #77aefc;
+  border-radius: 30px;
+  width: 32%;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  font-family: 'Pretendard-variable';
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 48px;
+  max-width: 100%;
+}

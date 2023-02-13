@@ -1,0 +1,27 @@
+.wrap-t {
+  position: relative;
+  align-content: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.carousel {
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.carousel h1 {
+  font-size: 36px;
+  text-align: left;
+}
+
+.wrap-b {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
